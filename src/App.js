@@ -4,17 +4,10 @@ import './App.css';
 import Navbar from './Pages/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Appointment from './Pages/Appointment';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
-import Login from './Pages/Login';
-import Register from './Pages/Register';
-import ChatApp from './Pages/ChatApp';
-import BookingHours from './Pages/BookingHours';
 import Profile from './Pages/Profile';
-import UserProfile from './Pages/UserProfile';
 import ApBooking from './Components/ApBooking';
-import Dashboard from './Pages/PagesData/Admin/Dashboard';
 import ContactForm from './Pages/ContactForm';
 
 const App = () => {
