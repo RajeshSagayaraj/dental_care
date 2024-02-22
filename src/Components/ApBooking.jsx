@@ -20,8 +20,10 @@ const apBooking = () => {
           textDecoration: "none",
         }}
       >
-        <h3 style={{ color: "#fff", fontSize: "18px" }}>
-          <span class="material-symbols-outlined">call  01429 820308</span>{" "}
+        <h3 className='phoneNumber' style={{ color: "#fff", fontSize: "25px" }}>
+          <span class="material-symbols-outlined">call </span><span>
+            01429 820308
+          </span>
         </h3>
       </HashLink>
     </>

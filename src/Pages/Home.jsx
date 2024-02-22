@@ -62,9 +62,9 @@ const Home = () => {
                 style={{ textDecoration: "none", color: "#fff" }}
               >
                 <div className="transperent_btn">
-                  <h4>
-                    <i class="material-symbols-outlined">call</i>
-                    01429 820308
+                  <h4 className='phoneNumber'>
+                    <i class="material-symbols-outlined">call </i><span>01429 820308</span>
+                    <span></span>
                   </h4>
                 </div>
               </HashLink>
