@@ -1,12 +1,12 @@
-import React from "react";
-import AppointmentSection from "./AppointmentSection";
+// import React from "react";
+// import AppointmentSection from "./AppointmentSection";
 
-function Dashboard() {
-  return (
-    <>
-      <AppointmentSection />
-    </>
-  );
-}
+// function Dashboard() {
+//   return (
+//     <>
+//       <AppointmentSection />
+//     </>
+//   );
+// }
 
-export default Dashboard;
+// export default Dashboard;

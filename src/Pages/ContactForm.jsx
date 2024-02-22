@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import './ContactForm.css';
+import emailjs from '@emailjs/browser'
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -8,6 +9,8 @@ function ContactForm() {
     email: '',
     message: ''
   });
+
+  const dataForm = useRef();
 
   const [errors, setErrors] = useState({});
 
@@ -46,7 +49,13 @@ function ContactForm() {
     if (validateForm()) {
       // Submit the form data
       console.log('Form data:', formData);
-      // You can send the form data to your backend here
+      emailjs.sendForm('service_gh01gxr','template_v2qicu7', dataForm.current , '6DrQ3mBt2Oz_-l1zf')
+      .then((result)=> {
+        console.log(result.text);
+        alert("Successfully sended...")
+      }, (error) => {
+        console.log(error.text);
+      })
     }
   };
 
@@ -54,7 +63,7 @@ function ContactForm() {
     <Container className='contactForm'>
       <Row className="justify-content-md-center">
         <Col md={6}>
-          <Form onSubmit={handleSubmit} id='contact-form'>
+          <Form ref={dataForm} onSubmit={handleSubmit} id='contact-form'>
           <h2>Contact Us</h2>
 
             <Form.Group controlId="formName" className='formGroup'>

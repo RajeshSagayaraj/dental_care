@@ -6,22 +6,22 @@ import footer_01 from '../Pages/images/footer_01.jpg';
 import footer_02 from '../Pages/images/footer_01.jpg';
 
 function LowerFooter() {
-  const contact_recent_data = [
-    {
-      index: 1,
-      rp_img: footer_01,
-      rp_text:
-        'Tooth problems are nothing less than an emergency no matter how minor or major the problem might be. Dental problems are varied and knowing how to handle them can actually go a long way in preventing long term damage.',
-      rp_btn: 'read more',
-    },
-    {
-      index: 2,
-      rp_img: footer_02,
-      rp_text:
-        'Although brushing and flossing are two important daily oral hygiene routines for maintaining the health of your teeth and gums, there are a few other simple things you can do to prevent tooth decay.',
-      rp_btn: 'read more',
-    },
-  ];
+  // const contact_recent_data = [
+  //   {
+  //     index: 1,
+  //     rp_img: footer_01,
+  //     rp_text:
+  //       'Tooth problems are nothing less than an emergency no matter how minor or major the problem might be. Dental problems are varied and knowing how to handle them can actually go a long way in preventing long term damage.',
+  //     rp_btn: 'read more',
+  //   },
+  //   {
+  //     index: 2,
+  //     rp_img: footer_02,
+  //     rp_text:
+  //       'Although brushing and flossing are two important daily oral hygiene routines for maintaining the health of your teeth and gums, there are a few other simple things you can do to prevent tooth decay.',
+  //     rp_btn: 'read more',
+  //   },
+  // ];
 
   const nav_data = [
     { index: 1, link_to: '/#home', nav_name: 'Home' },

@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./About.css";
-import about_img from "./images/about_img.webp";
 import { Link } from "react-router-dom";
 import about_long_des_data from "./PagesData/AboutData";
 const About = () => {
@@ -35,7 +34,7 @@ const About = () => {
               </div>
             </div>
             <div className="about_image">
-              <img src={about_img} alt="about img" />
+              <img src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/2154988.jpg" alt="about img" />
             </div>
           </div>
         </div>

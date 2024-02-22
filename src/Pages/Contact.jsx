@@ -2,43 +2,43 @@ import React from 'react';
 import LowerFooter from '../Components/LowerFooter';
 import './Contact.css';
 const Contact = () => {
-  const clinic_data = [
-    {
-      id: 1,
-      c_day: 'Monday',
-      c_time: '11:00 AM-9:00 PM',
-    },
-    {
-      id: 2,
-      c_day: 'Tuesday',
-      c_time: '11:00 AM-9:00 PM',
-    },
-    {
-      id: 3,
-      c_day: 'Wednesday',
-      c_time: '11:00 AM-9:00 PM',
-    },
-    {
-      id: 4,
-      c_day: 'Thursday',
-      c_time: '11:00 AM-9:00 PM',
-    },
-    {
-      id: 5,
-      c_day: 'Friday',
-      c_time: '11:00 AM-9:00 PM',
-    },
-    {
-      id: 6,
-      c_day: 'Saturday',
-      c_time: '11:00 AM-9:00 PM',
-    },
-    {
-      id: 7,
-      c_day: 'Sunday',
-      c_time: '5:00 PM-9:00 PM',
-    },
-  ];
+  // const clinic_data = [
+  //   {
+  //     id: 1,
+  //     c_day: 'Monday',
+  //     c_time: '11:00 AM-9:00 PM',
+  //   },
+  //   {
+  //     id: 2,
+  //     c_day: 'Tuesday',
+  //     c_time: '11:00 AM-9:00 PM',
+  //   },
+  //   {
+  //     id: 3,
+  //     c_day: 'Wednesday',
+  //     c_time: '11:00 AM-9:00 PM',
+  //   },
+  //   {
+  //     id: 4,
+  //     c_day: 'Thursday',
+  //     c_time: '11:00 AM-9:00 PM',
+  //   },
+  //   {
+  //     id: 5,
+  //     c_day: 'Friday',
+  //     c_time: '11:00 AM-9:00 PM',
+  //   },
+  //   {
+  //     id: 6,
+  //     c_day: 'Saturday',
+  //     c_time: '11:00 AM-9:00 PM',
+  //   },
+  //   {
+  //     id: 7,
+  //     c_day: 'Sunday',
+  //     c_time: '5:00 PM-9:00 PM',
+  //   },
+  // ];
   return (
     <>
       <div className="contact_section_container" id="contact-us">

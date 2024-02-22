@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo_img from './images/logo.png';
 import { HashLink } from 'react-router-hash-link';
 import 'font-awesome/css/font-awesome.min.css';
 import './Navbar.css';
