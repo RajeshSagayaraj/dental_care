@@ -74,7 +74,7 @@ function LowerFooter() {
       <div className="lower_outer_footer_container">
         <div className="about_us">
           <div className="wrapper_container_ab">
-            <h2>About Us</h2>
+            <h2 style={{borderBottom :'2px solid white'}}>About Us</h2>
             <p data-aos="fade-right">{about_long_des_data.text}</p>
           </div>
         </div>
@@ -99,7 +99,7 @@ function LowerFooter() {
         </div> */}
         <div className="footer_menu">
           <div className="wrapper_container_fm">
-            <h2>Footer Menu</h2>
+            <h2 style={{borderBottom :'2px solid white'}}>Footer Menu</h2>
             <div className="footer_data_menu">
               {nav_data.map((data, index) => {
                 return (
@@ -119,7 +119,7 @@ function LowerFooter() {
         </div>
         <div className="contact_us">
           <div className="wrapper_container_cu">
-            <h2>Contact Us</h2>
+            <h2 style={{borderBottom :'2px solid white'}}>Contact Us</h2>
             <div
               className="contact_address"
               data-aos="fade-down"
@@ -138,7 +138,7 @@ function LowerFooter() {
                     data-aos="fade-down"
                     data-aos-duration="1000"
                   >
-                    <span style={{ color: '#0396fe' }}>{data.title} </span>
+                    <span style={{ color: '#301934' }}>{data.title} </span>
                     {data.cu_data}
                   </p>
                 );

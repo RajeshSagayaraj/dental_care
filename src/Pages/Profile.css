@@ -21,7 +21,7 @@
   border-radius: 50%;
   width: 130px;
   height: 50%;
-  border: 1px solid #000000;
+  border: 2px solid rgb(4, 170, 176);
   box-shadow: 0 0 6px 1px #c2c0c0ba;
 }
 .profile_info {

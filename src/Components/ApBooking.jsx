@@ -15,7 +15,7 @@ const apBooking = () => {
           height: "67px",
           position: "fixed",
           zIndex: "100",
-          background: "rgb(21 130 247)",
+          background: "#67b745",
           bottom: "0",
           textDecoration: "none",
         }}

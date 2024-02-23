@@ -96,7 +96,7 @@ const Contact = () => {
             <span>
               <i className="fa-regular fa-copyright"></i>
             </span>
-            2023
+            2024
             <a href="/" id="clinic_name">
             Wheatley Hill Dental Surgery
             </a>
