@@ -36,7 +36,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="slider_controls">
+          {/* <div className="slider_controls">
             <div className="circle_dot_class">
               <span></span>
             </div>
@@ -46,7 +46,7 @@ const Home = () => {
             <div className="circle_dot_class">
               <span></span>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="clinic_container">

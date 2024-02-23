@@ -4,7 +4,7 @@
   width: 100%;
   background: rgb(4, 170, 176);
   align-content: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 30px;
 }
 
