@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import 'font-awesome/css/font-awesome.min.css';
 import './Navbar.css';
+import logoImage from './images/newImages/whds-logo.png'
+
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
 
@@ -17,7 +19,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="logo">
           <HashLink to="/#home">
-            <img src='https://wheatleyhilldental.co.uk/img/whds-logo.png' alt="whds" />
+            <img src={logoImage} alt="whds" />
           </HashLink>
           <h3>WHEATLEY HILL DENTAL SURGERY</h3>
         </div>
