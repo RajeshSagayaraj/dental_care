@@ -1,5 +1,5 @@
 .treatments{
-    height: 85vh;
+    /* height: 85vh; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -53,10 +53,15 @@
     margin: 1rem;
 }
 
+@media screen and (min-width: 1024px) {
+    .treatments {
+      height: 85vh;
+}}
+
 @media screen and (max-width: 768px) {
     .servicePanel {
       flex-direction: column;
-      height: auto;
+      height: 100%;
     }
     .servicePanelleft {
       width: 100%;
@@ -64,14 +69,12 @@
     }
     .servicePanelright {
       width: 100%;
-      height: auto;
       justify-content: center;
     }
   }
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .servicePanel {
-      flex-direction: column-reverse;
-      height: 100%;
+      flex-direction: column;
     }
     .servicePanelleft{
         width: 100%;
@@ -80,4 +83,4 @@
         width: 100%;
         height: 100%;
     }
-  } */
+  }
