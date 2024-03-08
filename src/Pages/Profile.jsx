@@ -120,7 +120,7 @@ const Profile = () => {
           <span>
             <i className="fa-solid fa-angles-right"></i>
           </span>
-          Our Teem
+          Our Team
         </h2>
         <Carousel value={your_profile_details} itemTemplate={itemTemplate} numVisible={3} numScroll={1} responsiveOptions={responsiveOptions} autoplayInterval={3000} circular={true}/>
       </div>
