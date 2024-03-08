@@ -54,18 +54,18 @@ function LowerFooter() {
     {
       index: 2,
       img: <i class="fa-brands fa-instagram"></i>,
-      on_link: 'https://www.instagram.com/',
+      on_link: 'https://www.instagram.com/wheatleyhilldental/',
     },
-    {
-      index: 3,
-      img: <i class="fa-brands fa-twitter"></i>,
-      on_link: 'https://www.twitter.com/',
-    },
-    {
-      index: 4,
-      img: <i class="fa-sharp fa-solid fa-globe"></i>,
-      on_link: 'https://www.facebook.com/wheatleyhillds',
-    },
+    // {
+    //   index: 3,
+    //   img: <i class="fa-brands fa-twitter"></i>,
+    //   on_link: 'https://www.twitter.com/',
+    // },
+    // {
+    //   index: 4,
+    //   img: <i class="fa-sharp fa-solid fa-globe"></i>,
+    //   on_link: 'https://www.facebook.com/wheatleyhillds',
+    // },
   ];
   return (
     <>

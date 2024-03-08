@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./About.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import about_long_des_data from "./PagesData/AboutData";
 const About = () => {
   return (
