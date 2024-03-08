@@ -1,9 +1,13 @@
 import React, { useRef, useState } from 'react';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import './ContactForm.css';
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
+import { Toast } from 'primereact/toast';
+
 
 function ContactForm() {
+  const toast = useRef(null);
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -52,7 +56,8 @@ function ContactForm() {
       emailjs.sendForm('service_gh01gxr','template_v2qicu7', dataForm.current , '6DrQ3mBt2Oz_-l1zf')
       .then((result)=> {
         console.log(result.text);
-        alert("Successfully sended...")
+        toast.current.show({severity:'success', summary: 'Success', detail:'Mail Sended...', life: 3000});
+        // alert("Successfully sended...")
       }, (error) => {
         console.log(error.text);
       })
@@ -61,6 +66,7 @@ function ContactForm() {
 
   return (
     <Container className='contactForm'>
+      <Toast ref={toast} />
       <Row className="justify-content-md-center">
         <Col md={6}>
           <Form ref={dataForm} onSubmit={handleSubmit} id='contact-form'>
