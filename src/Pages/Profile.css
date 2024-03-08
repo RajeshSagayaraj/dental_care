@@ -58,16 +58,12 @@
   margin-right: 9px;
 }
 
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .profile_section_container {
-    height: 100vh;
+    height: 80vh;
   }
 }
-@media screen and (max-width: 1023px) {
-  .profile_section_container {
-    height: 100vh;
-  }
-}
+
 @media screen and (max-width: 940px) {
   .profile_section_container h2 {
     width: 90%;
@@ -95,13 +91,11 @@
 }
 
 @media screen and (max-width: 480px) {
-  .profile_section_container h2 {
-    margin-top: 54px;
-  }
   .profile_details {
-    width: 90%;
+    width: 80%;
+    height: 90%;
   }
 }
 
 @media screen and (max-width: 420px) {
-} */
+} 

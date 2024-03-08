@@ -37,6 +37,9 @@
 .about_align_btn {
   display: flex;
   width: 99%;
+  justify-content: center;
+  align-content: center;
+  margin: 10px;
 }
 
 .more_info_btn {

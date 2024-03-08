@@ -2,8 +2,6 @@ import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import about_long_des_data from '../Pages/PagesData/AboutData';
 import './LowerFooter.css';
-import footer_01 from '../Pages/images/footer_01.jpg';
-import footer_02 from '../Pages/images/footer_01.jpg';
 
 function LowerFooter() {
   // const contact_recent_data = [
@@ -51,7 +49,7 @@ function LowerFooter() {
     {
       index: 1,
       img: <i class="fa-brands fa-facebook-f"></i>,
-      on_link: 'https://www.facebook.com/',
+      on_link: 'https://www.facebook.com/wheatleyhillds',
     },
     {
       index: 2,
@@ -66,7 +64,7 @@ function LowerFooter() {
     {
       index: 4,
       img: <i class="fa-sharp fa-solid fa-globe"></i>,
-      on_link: 'https://omdentalclinic.vercel.app/#home',
+      on_link: 'https://www.facebook.com/wheatleyhillds',
     },
   ];
   return (
@@ -151,6 +149,7 @@ function LowerFooter() {
                     className="contact_data_links"
                     key={index}
                     href={data.on_link}
+                    target='blank'
                   >
                     {data.img}
                   </a>

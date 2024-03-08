@@ -49,7 +49,6 @@
   align-items: center;
   text-align: center;
   box-shadow: 0 0 25px 0 #babababf;
-  padding: 15px;
   margin-bottom: 30px;
   border-radius: 15px;
   font-family: Poppins, sans-serif;
@@ -71,15 +70,21 @@ border: 2px solid #26c0dd;
   margin-bottom: 0px;
   line-height: 1.7;
   color: #344c5d;
+  text-align: justify;
+  /* display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis; */
 }
 .service_description{
-  height: 60%;
+  height: auto;
 }
 
 @media screen and (min-width: 1024px) {
   .service_info {
     width: 430px;
-    height: 330px;
+    height: 350px;
     justify-content: center;
   }
   .service_info_container {

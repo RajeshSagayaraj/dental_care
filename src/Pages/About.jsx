@@ -24,14 +24,14 @@ const About = () => {
                 hands.
               </p>
               <p className="about_long_descrp">{about_long_des_data.text}</p>
-              <div className="about_align_btn">
+              {/* <div className="about_align_btn">
                 <Link
                   to={"/dental-clinic/team"}
                   style={{ textDecoration: "none", color: "#fff" }}
                 >
                   <button className="more_info_btn">Read More</button>
                 </Link>
-              </div>
+              </div> */}
             </div>
             <div className="about_image">
               <img src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/2154988.jpg" alt="about img" />

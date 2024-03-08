@@ -176,8 +176,8 @@
     align-content: center;
   }
   .slider_image img {
-    width: 594px !important;
-    height: 409px;
+    width: 400px;
+    height: 350px;
     padding: 0;
     margin: 0;
   }
@@ -204,6 +204,10 @@
   }
 }
 @media screen and (max-width: 924px) {
+  .mainImage{
+    max-height: 500px;
+    max-width: 500px;
+  }
   .clinic_info {
     flex-direction: column;
   }
@@ -232,6 +236,10 @@
 
 }
 @media screen and (max-width: 580px) {
+  .mainImage{
+    max-height: 300px;
+    max-width: 300px;
+  }
   .slider-images {
     flex-direction: column-reverse;
     margin-bottom: -50px !important;

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.css";
 import "font-awesome/css/font-awesome.min.css";
-// import slider_one from "../Pages/images/slide_one.png";
 import { HashLink } from "react-router-hash-link";
+import slide1 from "../assets/slide_1.jpg"
 
 const Home = () => {
   return (
@@ -13,8 +13,9 @@ const Home = () => {
             <div className="slider_image">
               <img
                 className="mainImage"
-                src="https://img.freepik.com/free-vector/female-dentist-doing-dental-work-customers-medical-clinic_1150-50295.jpg?w=740&t=st=1708582789~exp=1708583389~hmac=906efefc4dc4ee14f03d8ef257a15233023ad9fe2897aad77973830c643f5c72"
+                src={slide1}
                 data-aos="fade-down"
+                alt=""
               />
             </div>
 
@@ -73,7 +74,7 @@ const Home = () => {
               <h2>Are you looking to improve your oral health and smile?</h2>
               <p>There's no better option than INVISALIGN</p>
               <HashLink
-                to={"/"}
+                to={"/invisalign"}
                 style={{ textDecoration: "none", color: "#fff" }}
               >
                 <div className="transperent_btn">Read More</div>
@@ -84,7 +85,7 @@ const Home = () => {
               <p>Monday – Friday : 09.00 AM – 05.00 PM</p>
 
               <HashLink
-                to={"/"}
+                to={"/#contact-us"}
                 style={{ textDecoration: "none", color: "#fff" }}
               >
                 <div className="transperent_btn" id="tr_btn_01">
