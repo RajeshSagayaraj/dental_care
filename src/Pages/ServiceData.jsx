@@ -5,21 +5,24 @@ import image4 from './images/newImages/dental-img7.svg';
 import image5 from './images/newImages/dental-img3.svg';
 import image6 from './images/newImages/dental-img6.svg';
 import treatmentPhoto1 from './images/treatments/treatmentPhoto1.png';
-import treatmentPhoto2 from './images/treatments/treatmentPhoto2.png';
-import treatmentPhoto3 from './images/treatments/treatmentPhoto3.png';
-import treatmentPhoto4 from './images/treatments/treatmentPhoto4.png';
-import treatmentPhoto5 from './images/treatments/treatmentPhoto5.png';
+// import treatmentPhoto2 from './images/treatments/treatmentPhoto2.png';
+// import treatmentPhoto3 from './images/treatments/treatmentPhoto3.png';
+// import treatmentPhoto4 from './images/treatments/treatmentPhoto4.png';
+// import treatmentPhoto5 from './images/treatments/treatmentPhoto5.png';
 import treatmentPhoto6 from './images/treatments/treatmentPhoto6.png';
 import treatmentPhoto7 from './images/treatments/treatmentPhoto7.png';
 import treatmentPhoto8 from './images/treatments/treatmentPhoto8.png';
 import treatmentPhoto9 from './images/treatments/treatmentPhoto9.png';
 import treatmentPhoto10 from './images/treatments/treatmentPhoto10.png';
-import treatmentPhoto11 from './images/treatments/treatmentPhoto11.png';
-import treatmentPhoto12 from './images/treatments/treatmentPhoto12.png';
+// import treatmentPhoto11 from './images/treatments/treatmentPhoto11.png';
+// import treatmentPhoto12 from './images/treatments/treatmentPhoto12.png';
 import treatmentPhoto13 from './images/treatments/treatmentPhoto9.png';
 import treatmentPhoto14 from './images/treatments/treatmentPhoto14.png';
 import treatmentPhoto15 from './images/treatments/treatmentPhoto15.png';
 import treatmentPhoto16 from './images/treatments/treatmentPhoto16.png';
+import MixCollage1 from './images/treatments/MixCollage1.jpg';
+import MixCollage2 from './images/treatments/MixCollage2.jpg';
+import MixCollage3 from './images/treatments/MixCollage3.jpg';
 
 
 const ServiceData = [
@@ -28,7 +31,7 @@ const ServiceData = [
     img_src: image1,
     title: "ALL CERAMIC BRIDGES",
     description: "The bridge is a fixed dental restoration technique which is used to replace a missing tooth or teeth by joining an artificial tooth permanently to adjacent teeth or to an adjacent tooth.",
-    image1 : [treatmentPhoto3,treatmentPhoto1,treatmentPhoto2],
+    image1 : [treatmentPhoto1,MixCollage1],
     description2 : `<b>Dental Crowns</b> are tooth shaped restorations used to rebuild broken, decayed or damaged teeth. Crowns are also placed to improve the colour or shape of your existing teeth. Crowns are made from different materials like metal, ceramic or composite. Ceramic crowns are also used for aesthetic purposes. Crowns fit over the tooth or implant.
     <br/>
     <br/>
@@ -39,7 +42,7 @@ const ServiceData = [
     img_src: image2,
     title: "DENTAL IMPLANTS",
     description: "If you have lost a tooth or several teeth due to an injury, dental implant service can help you. An artificial root can be placed into your jaw to hold a replacement tooth or bridge.",
-    image1 : [treatmentPhoto4,treatmentPhoto5,treatmentPhoto6],
+    image1 : [MixCollage2,treatmentPhoto6],
     description2 : `<b>Dental Implants</b> are titanium screws that are precisely placed into your jaw to replace a missing tooth/teeth. Dental implants act as a tooth root on which a crown or a bridge is fitted to replace missing tooth/teeth.
     <br/>
     <br/>
@@ -59,7 +62,7 @@ const ServiceData = [
     img_src: image4,
     title: "SMILE MAKEOVER",
     description: "Smile design services are offered to the patients who are primarily looking for improvement of dental aesthetics in terms of colour, position, shape, size, alignment and overall smile appearance.",
-    image1 : [treatmentPhoto10,treatmentPhoto11,treatmentPhoto12],
+    image1 : [treatmentPhoto10,MixCollage3],
     description2 : `<b>Smile Makeover</b> is a process of improving the appearance of your smile through one or more cosmetic dental procedures, such as teeth straightening using Invisalign, Veneers, Composite Bonding, Implants/Whitening etc.`
   },
   {
