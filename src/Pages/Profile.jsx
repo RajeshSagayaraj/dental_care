@@ -6,7 +6,7 @@ import staff2 from './images/Staffs/beverly.jpg';
 import staff3 from './images/Staffs/megan_jones.jpeg';
 import staff4 from './images/Staffs/nonamewhds.jpg';
 import staff5 from './images/Staffs/Ashleigh Rowell - Dental Nurse.jpeg';
-// import staff6 from './images/Staffs/favour.jpeg';
+import staff6 from './images/Staffs/shona.jpeg';
 import staff7 from './images/Staffs/Frances Poulter - Foundation Dentist.jpeg';
 import staff8 from './images/Staffs/Joanne Metcalfe- Receptionist.jpeg';
 import staff9 from './images/Staffs/Samantha Cook - Dental Nurse.jpeg';
