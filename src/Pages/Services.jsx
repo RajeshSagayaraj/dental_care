@@ -19,8 +19,6 @@ const Services = () => {
               <div
                 className="service_info"
                 key={index}
-                data-aos="fade-right"
-                data-aos-duration="1000"
               >
                 <div className="service_image_details">
                   <img

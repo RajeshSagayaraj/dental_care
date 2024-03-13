@@ -4,22 +4,6 @@ import about_long_des_data from '../Pages/PagesData/AboutData';
 import './LowerFooter.css';
 
 function LowerFooter() {
-  // const contact_recent_data = [
-  //   {
-  //     index: 1,
-  //     rp_img: footer_01,
-  //     rp_text:
-  //       'Tooth problems are nothing less than an emergency no matter how minor or major the problem might be. Dental problems are varied and knowing how to handle them can actually go a long way in preventing long term damage.',
-  //     rp_btn: 'read more',
-  //   },
-  //   {
-  //     index: 2,
-  //     rp_img: footer_02,
-  //     rp_text:
-  //       'Although brushing and flossing are two important daily oral hygiene routines for maintaining the health of your teeth and gums, there are a few other simple things you can do to prevent tooth decay.',
-  //     rp_btn: 'read more',
-  //   },
-  // ];
 
   const nav_data = [
     { index: 1, link_to: '/#home', nav_name: 'Home' },
@@ -73,28 +57,9 @@ function LowerFooter() {
         <div className="about_us">
           <div className="wrapper_container_ab">
             <h2 style={{borderBottom :'2px solid white'}}>About Us</h2>
-            <p data-aos="fade-right">{about_long_des_data.text}</p>
+            <p >{about_long_des_data.text}</p>
           </div>
         </div>
-        {/* <div className="recent_posts">
-          <h2>Recent Post</h2>
-          {contact_recent_data.map((data, index) => {
-            return (
-              <div
-                className="rp_data"
-                key={index}
-                data-aos="fade-down"
-                data-aos-duration="1000"
-              >
-                <img src={data.rp_img} alt="" />
-                <div className="rp_compile_container">
-                  <p>{data.rp_text}</p>
-                  <a href="#">{data.rp_btn}</a>
-                </div>
-              </div>
-            );
-          })}
-        </div> */}
         <div className="footer_menu">
           <div className="wrapper_container_fm">
             <h2 style={{borderBottom :'2px solid white'}}>Footer Menu</h2>
@@ -105,8 +70,6 @@ function LowerFooter() {
                     className="nav_data"
                     key={index}
                     to={data.link_to}
-                    data-aos="fade-down"
-                    data-aos-duration="1000"
                   >
                     {data.nav_name}
                   </HashLink>
@@ -120,8 +83,6 @@ function LowerFooter() {
             <h2 style={{borderBottom :'2px solid white'}}>Contact Us</h2>
             <div
               className="contact_address"
-              data-aos="fade-down"
-              data-aos-duration="1000"
             >
               <address>
               6 The Avenue, Wheatley Hill, Durham DH6 3NT
@@ -133,8 +94,6 @@ function LowerFooter() {
                   <p
                     className="cs_data"
                     key={index}
-                    data-aos="fade-down"
-                    data-aos-duration="1000"
                   >
                     <span style={{ color: '#301934' }}>{data.title} </span>
                     {data.cu_data}
