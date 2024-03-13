@@ -41,7 +41,7 @@ const Profile = () => {
     },
     {
       id: 5,
-      photo: staff4,
+      photo: staff6,
       name: "Mrs. Shona Tilley",
       occupation: "Dental Nurse",
     },
