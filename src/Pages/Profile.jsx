@@ -5,11 +5,12 @@ import staff1 from './images/Staffs/keerthi.jpg';
 import staff2 from './images/Staffs/beverly.jpg';
 import staff3 from './images/Staffs/megan_jones.jpeg';
 import staff4 from './images/Staffs/nonamewhds.jpg';
-import staff5 from './images/Staffs/ashleigh.jpeg';
-import staff6 from './images/Staffs/favour.jpeg';
-import staff7 from './images/Staffs/poulter.jpeg';
-import staff8 from './images/Staffs/metcalfe.jpg';
-// import staff9 from './images/Staffs/keerthi.jpg';
+import staff5 from './images/Staffs/Ashleigh Rowell - Dental Nurse.jpeg';
+// import staff6 from './images/Staffs/favour.jpeg';
+import staff7 from './images/Staffs/Frances Poulter - Foundation Dentist.jpeg';
+import staff8 from './images/Staffs/Joanne Metcalfe- Receptionist.jpeg';
+import staff9 from './images/Staffs/Samantha Cook - Dental Nurse.jpeg';
+import staff10 from './images/Staffs/Alberta Marlene Da Cunha Ribeiro- Dentist.jpeg';
 
 
 const Profile = () => {
@@ -17,73 +18,62 @@ const Profile = () => {
     {
       id: 1,
       photo: staff1,
-      name: "Keerthi Kumar Ujjini Basavaiah",
+      name: "Mr. Keerthi Kumar Ujjini Basavaiah",
       occupation: "Principal Dentist",
-      description:
-        "Our clinic's Chief Medical Officer, Dr. Mark Hoffman has been working in this field of medical specialization since 2002. AColumbia medical school graduate, this",
     },
     {
       id: 2,
-      photo: staff2,
-      name: "Beverley Watson",
-      occupation: "Practice Manageress",
-      description:
-        "Our clinic's Chief Medical Officer, Dr. Mark Hoffman has been working in this field of medical specialization since 2002. AColumbia medical school graduate, this",
+      photo: staff10,
+      name: "Mrs. Alberta Marlene Da Cunha Ribeiro",
+      occupation: "Associate Dentist",
     },
     {
       id: 3,
-      photo: staff3,
-      name: "Megan Jones",
-      occupation: "Trainee Dental Nurse",
-      description:
-        "Our clinic's Chief Medical Officer, Dr. Mark Hoffman has been working in this field of medical specialization since 2002. AColumbia medical school graduate, this",
+      photo: staff7,
+      name: "Miss. Frances Poulter",
+      occupation: "Foundation Dentist",
     },
     {
       id: 4,
-      photo: staff4,
-      name: "Samantha Cook",
-      occupation: "Dental Nurse",
-      description:
-        "Our clinic's Chief Medical Officer, Dr. Mark Hoffman has been working in this field of medical specialization since 2002. AColumbia medical school graduate, this",
+      photo: staff2,
+      name: "Miss. Beverley Watson",
+      occupation: "Practice Manager",
     },
     {
       id: 5,
       photo: staff4,
-      name: "Alberta Marlene Da Cunha Ribeiro",
-      occupation: "Dentist",
-      description:
-        "Our clinic's Chief Medical Officer, Dr. Mark Hoffman has been working in this field of medical specialization since 2002. AColumbia medical school graduate, this",
+      name: "Mrs. Shona Tilley",
+      occupation: "Dental Nurse",
     },
     {
       id: 6,
-      photo: staff5,
-      name: "Ashleigh Rowell",
+      photo: staff4,
+      name: "Mrs. Karen Thurlbeck",
       occupation: "Dental Nurse",
-      description:
-        "Our clinic's Chief Medical Officer, Dr. Mark Hoffman has been working in this field of medical specialization since 2002. AColumbia medical school graduate, this",
     },
     {
       id: 7,
-      photo: staff6,
-      name: "Favour Nwokeji",
-      occupation: "Trainee Dental Nurse",
-      description:
-        "Our clinic's Chief Medical Officer, Dr. Mark Hoffman has been working in this field of medical specialization since 2002. AColumbia medical school graduate, this",
+      photo: staff5,
+      name: "Miss. Ashleigh Rowell",
+      occupation: "Dental Nurse",
     },
     {
       id: 8,
-      photo: staff7,
-      name: "Miss Frances Poulter (FD)",
-      occupation: "Dentist",
-      description:
-        "Our clinic's Chief Medical Officer, Dr. Mark Hoffman has been working in this field of medical specialization since 2002. AColumbia medical school graduate, this",
-    },{
+      photo: staff9,
+      name: "Miss. Samantha Cook      ",
+      occupation: "Dental Nurse",
+    },
+    {
       id: 9,
+      photo: staff3,
+      name: "Miss. Megan Jones",
+      occupation: "Trainee Dental Nurse",
+    },
+    {
+      id: 10,
       photo: staff8,
-      name: "Joanne Metcalfe",
+      name: "Miss. Joanne Metcalfe",
       occupation: "Receptionist",
-      description:
-        "Our clinic's Chief Medical Officer, Dr. Mark Hoffman has been working in this field of medical specialization since 2002. AColumbia medical school graduate, this",
     },
   ];
 
