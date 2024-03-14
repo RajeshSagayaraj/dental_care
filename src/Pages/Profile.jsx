@@ -1,16 +1,16 @@
 import React from "react";
 import "./Profile.css";
 import { Carousel } from 'primereact/carousel';
-import staff1 from './images/Staffs/keerthi.jpg';
-import staff2 from './images/Staffs/beverly.jpg';
-import staff3 from './images/Staffs/megan_jones.jpeg';
+import staff1 from './images/Staffs/image_5.png';
+import staff2 from './images/Staffs/image_6.png';
+import staff3 from './images/Staffs/image_4.jpeg';
 import staff4 from './images/Staffs/nonamewhds.jpg';
-import staff5 from './images/Staffs/Ashleigh Rowell - Dental Nurse.jpeg';
+import staff5 from './images/Staffs/image_2.jpeg';
 import staff6 from './images/Staffs/shona.jpeg';
-import staff7 from './images/Staffs/Frances Poulter - Foundation Dentist.jpeg';
-import staff8 from './images/Staffs/Joanne Metcalfe- Receptionist.jpeg';
-import staff9 from './images/Staffs/Samantha Cook - Dental Nurse.jpeg';
-import staff10 from './images/Staffs/Alberta Marlene Da Cunha Ribeiro- Dentist.jpeg';
+import staff7 from './images/Staffs/image_1.jpeg';
+import staff8 from './images/Staffs/image_3.jpeg';
+import staff9 from './images/Staffs/image_7.jpeg';
+import staff10 from './images/Staffs/image_8.jpeg';
 
 
 const Profile = () => {
